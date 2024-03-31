@@ -1,0 +1,46 @@
+body {
+  /* користувацькі налаштуванна */
+  margin-top: 100px;
+}
+.wrapper {
+  z-index: -1;
+  position: relative;
+
+  /* користувацькі налаштуванна */
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  background:   lightskyblue;
+}
+.child1 {
+  top: 90px;
+  left: 320px;
+  position: absolute;
+  z-index: 1;
+
+  /* користувацькі налаштуваня */
+  background: lightcoral;
+}
+.child2 {
+  top: 130px;
+  left: 360px;
+  position: absolute;
+  z-index: 2;
+
+  /* користувацькі налаштуваня */
+  background: cornflowerblue;
+}
+.child3 {
+  top: 180px;
+  left: 410px;
+  position: absolute;
+  z-index: 1;
+
+  /* користувацькі налаштування */
+  background: lightgreen;
+}
+.child {
+  /* користувацькі налаштування */
+  width: 100px;
+  height: 100px;
+}
