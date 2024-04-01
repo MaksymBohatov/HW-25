@@ -1,6 +1,6 @@
 body {
   /* користувацькі налаштуванна */
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .wrapper {
   z-index: -1;
@@ -15,7 +15,7 @@ body {
 }
 .child1 {
   top: 90px;
-  left: 320px;
+  left: 310px;
   position: absolute;
   z-index: 1;
 
@@ -23,8 +23,8 @@ body {
   background: lightcoral;
 }
 .child2 {
-  top: 130px;
-  left: 360px;
+  top: 150px;
+  left: 370px;
   position: absolute;
   z-index: 2;
 
@@ -32,13 +32,13 @@ body {
   background: cornflowerblue;
 }
 .child3 {
-  top: 180px;
-  left: 410px;
+  top: 200px;
+  left: 420px;
   position: absolute;
   z-index: 1;
 
   /* користувацькі налаштування */
-  background: lightgreen;
+  background: rgb(136, 236, 136);
 }
 .child {
   /* користувацькі налаштування */
