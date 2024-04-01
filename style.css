@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
   width: 800px;
   height: 400px;
-  background:   lightskyblue;
+  background: rgba(135, 206, 250, 0.4);
+  border-radius: 8px;
 }
 .child1 {
   top: 90px;
